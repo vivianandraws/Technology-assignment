@@ -1,0 +1,37 @@
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+	.technology-custom td{ 
+		display: block; 
+	}
+	.technology-custom table{
+			max-width: 760px;
+			background: white;
+			border: none;
+			margin-left: 30px;
+	}
+}
+
+.technology-custom td {
+	position: relative;
+	max-width: 200px;
+}
+
+
+.technology-custom img {
+	max-width: 200px;
+}
+
+.technology-custom td a {
+	position: absolute;
+	bottom: 6px;
+	background-color: #222;
+	opacity: 0.3;
+	padding: 10px 0px;
+	width: 200px;
+	text-align: right;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
